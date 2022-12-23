@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primarycolor: #ebebeb;
+    --secondarycolor: #6D6D6D;
+    --tertiarycolor: #323232;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: var(--tertiarycolor);
+    height: 1123px;
+    width: 794px;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    border-bottom: 2px solid #323232;
+    font-weight: bold;
+    color: var(--tertiarycolor);
+}
+
+h3{
+    margin-top: .3rem;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--tertiarycolor);
+}
+
+h4{
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--tertiarycolor);
+}
+
+p{
+    font-family: 'Comfortaa';
+    font-size: 1.5rem;
+}
+
+.skill_list,
+.experience_list,
+.class_list ul{
+    margin-top: .25rem;
+    margin-left: 2.5rem;
+    font-family: 'Comfortaa';
+    font-size: 1.5rem;
+}
+
+.container{
+    max-width: 1123px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.social a{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: 2px solid #323232;
+}
+
+.profile_name,
+.contact{
+    margin-top: 1rem;
+    color: var(--primarycolor);
+}
+
+.linkedin,
+.github{
+    text-decoration: none;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    color: var(--primarycolor);
+}
+
+.linkedin:visited,
+.github:visited{
+    color: var(--primarycolor);
+}
+
+.about_container{
+    background: #ebebeb;
+    border-radius: .2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 2.5rem;
+}
+
+.experience_container{
+    max-width: 95%;
+}
+
+.location{
+    margin-top: .2rem;
+}
+
+.location,
+.date,
+.graduation{
+    display: flex;
+}
+
+.location img,
+.date img,
+.graduation img{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: .15rem;
+    margin-right: .5rem;
+}
+
+.skill_container{
+    padding-left: 2rem;
+    border-left: 2px solid #323232;
+}
+
+.skills p{
+    margin-top: 1rem;
+    text-indent: 3rem;
+}
+
+.education{
+    margin-top: 1rem;
+}
+
+.tech_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1rem;
+}
+
+.class_list,
+.strengths_list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.class_list p,
+.class_list ul,
+.experience_list,
+.skill_list{
+    margin-bottom: .4rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.class_list h3{
+    margin-bottom: .5rem;
+}
+
+.class_list p,
+.tech_list p,
+.strengths_list p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
